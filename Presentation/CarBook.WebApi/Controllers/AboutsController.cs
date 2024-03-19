@@ -1,6 +1,6 @@
-﻿using Application.Features.Commands.AboutCommands;
-using Application.Features.Handlers.AboutHandlers;
-using Application.Features.Queries.AboutQueries;
+﻿using Application.Features.CQRS.Commands.AboutCommands;
+using Application.Features.CQRS.Handlers.AboutHandlers;
+using Application.Features.CQRS.Queries.AboutQueries;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarBook.WebApi.Controllers
